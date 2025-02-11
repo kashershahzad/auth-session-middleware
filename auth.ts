@@ -31,7 +31,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   ],
 
   session: {
-    strategy: "jwt", // Use JWT for sessions
+    strategy: "jwt",
   },
 
   callbacks: {
